@@ -1,37 +1,212 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Nana3012/The_band/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The band NZ</title>
+    <link rel="icon" href="" type="image/x-icon"/>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href=".//assets/fonts/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">  <!--tao div chinh chua nhung div nho cua web-->
+        <div id="header">
+            <!-- Begin: Nav -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- End: Nav -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+            <!-- Mobile menu button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
 
-### Markdown
+            <!-- Search button -->
+            <div class="search-btn">
+                <i class=" search-icon ti-search"></i>
+            </div>
+            
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        </div>  
 
-```markdown
-Syntax highlighted code block
+        <div id="slider"> 
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+                <p class="text-description"> Thank you, Chicago - A night we won't forget.</p>    
+            </div>
+        </div>
 
-# Header 1
-## Header 2
-### Header 3
+        <div id="content">  
+            <!-- content-section -->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">THE BAND</h2>   
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">
+                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="row members-list">
+                    <div class="col col-third s-col-full margintop-32 text-center">
+                        <p class="member-name">Name</p>
+                        <img src="../assets/img/band/member1.jpg" alt="" class="member-img">
+                    </div>
 
-- Bulleted
-- List
+                    <div class="col col-third s-col-full margintop-32 text-center">
+                        <p class="member-name">Name</p>
+                        <img src="../assets/img/band/member1.jpg" alt="" class="member-img">
+                    </div>
 
-1. Numbered
-2. List
+                    <div class="col col-third s-col-full margintop-32 text-center">
+                        <p class="member-name">Name</p>
+                        <img src="../assets/img/band/member1.jpg" alt="" class="member-img">
+                    </div>
+                </div>
+            </div>
 
-**Bold** and _Italic_ and `Code` text
+            <!-- tour-section -->
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>   
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <!-- ticket -->
+                    <ul class="ticket-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
 
-[Link](url) and ![Image](src)
-```
+                    <!-- Places -->
+                    <div class=" row place-list">
+                        <div class=" col col-third s-col-full margintop-16">
+                            <img src="../assets/img/places/place1.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">New York</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="btn s-full-width">Buy Tickets</a>
+                            </div>
+                        </div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+                        <div class="col col-third s-col-full margintop-16">
+                            <img src="../assets/img/places/place2.jpg" alt="Paris" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Paris</h3>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="btn s-full-width">Buy Tickets</a>
+                            </div>
+                        </div>
 
-### Jekyll Themes
+                        <div class="col col-third s-col-full margintop-16">
+                            <img src="../assets/img/places/place3.jpg" alt="Lon Don " class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Lon Don</h3>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="btn s-full-width">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <!-- dung clear de place-list om duoc place-item -->
+                    </div>
+                </div>
+            </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nana3012/The_band/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+             <!-- Begin: contact-section -->
+             <div id="contact" class="content-section">
+                <h2 class="section-heading"> CONTACT</h2>   
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="row contact-content">
+                    <div class="col col-half s-col-full contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US</p>
+                        <p><i class="ti-mobile"></i> Phone: <a href="tell:+00 151515">+00 151515</a> </p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
+                    </div>
+                    <div class="col col-half s-col-full contact-form">
+                        <form action="" >
+                            <div class="row">
+                                <div class="col col-half s-col-full">
+                                    <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half s-col-full s-mt-8">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row margintop-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="contact-submit-btn btn s-full-width pull-right margintop-16 s-full-width" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- End:contact-section -->
+            <div class="map-section">
+                <img  src="/assets/img/map.jpg" alt="map">
+            </div>
+        </div>
 
-### Support or Contact
+        <div id="footer">
+            <div class="socials-list">
+                <a href=""><i class="ti-facebook"></i></a>
+                <a href=""><i class="ti-instagram"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href=""><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        </div>
+    </div>
+    <script> 
+        var header= document.getElementById('header');
+        var mobileMenu= document.getElementById('mobile-menu');
+        var headerHeight=header.clientHeight;
+        // open, closed mobile menu 
+        mobileMenu.onclick=function() {
+            var isClosed = header.clientHeight === headerHeight; 
+            if (isClosed){
+                header.style.height ='auto';
+            }else{
+                header.style.height =null;
+            }
+        }
+
+        // closed, open automatically menu 
+        var menuItems=document.querySelectorAll('#nav >li >a[href*="#"]');
+        for (var i = 0; i< menuItems.length; i++){
+            var menuItem = menuItems[i];
+            
+
+            
+            menuItem.onclick = function(event) {
+                var isParentMenu=this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if (isParentMenu){
+                    event.preventDefault();
+                }else{
+                    header.style.height =null;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
